@@ -7,6 +7,9 @@ variable "region" {
     default = "us-east"
 }
 
+variable "account_id" {}
+
+
 variable "ibm_cloud_api_key" {}
 variable "sl_username" {}
 variable "sl_api_key" {}
